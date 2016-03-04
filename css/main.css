@@ -1,0 +1,78 @@
+html {
+  height: 100%;
+}
+body {
+  background-image: url("../img/desk_bg_bw.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+  font-family: 'Roboto', sans-serif;
+}
+.content {
+  margin-top: 22%;
+  color: white;
+}
+.divider {
+  height: 1px;
+  width: 18%;
+  background-color: white;
+  margin: 25px auto;
+}
+.name {
+  font-size: 70px;
+  font-weight: 700;
+  margin-top: 0px;
+}
+.role {
+  font-size: 40px;
+  font-weight: 100;
+}
+.box {
+  border: 1px solid white;
+  border-radius: 3px;
+  margin-left: 15%;
+  margin-right: 15%;
+  padding: 60px 50px;
+  background-color: rgba(255, 255, 255, 0.1);
+}
+.btn-outline {
+  background-color: transparent;
+  color: white;
+  font-weight: 200;
+}
+.btn-white {
+  background-color: white;
+  color: black;
+  font-weight: 200;
+  border: 1px solid white;
+}
+.btn-white:hover {
+  background-color: transparent;
+  color: white;
+}
+.btn-callout {
+  background-color: #F8E71C;
+  color: black;
+  font-weight: 200;
+  border: 1px solid #F8E71C;
+}
+.btn-callout:hover {
+  background-color: transparent;
+  color: #F8E71C;
+}
+.btn-row-1 {
+  margin-top: 35px;
+}
+.btn-row-1 button:first-child {
+  margin-right: 25px;
+}
+.btn-row-2 {
+  font-size: 38px;
+  margin-top: 25px;
+}
+.btn-row-2 a {
+  color: white;
+}
+.btn-row-2 i {
+  margin-right: 18px;
+}
